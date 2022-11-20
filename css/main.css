@@ -9,19 +9,157 @@
     display: block, flex, etc;
     overflow: visible, hidden, scroll, etc;
     box-sizing: border-box, etc;
-    width: - - -;
-    height: - - - ;
-    padding: 10px 10px;
-    border: 0 solid color;
-    margin: - - - ;
+    /* width: - - -; */
+    /* height: - - - ; */
+    /* padding: 10px 10px; */
+    /* border: 0 solid color; */
+    /* margin: - - - ; */
     /* COLOR */
-    background: - - - ;
-    color: - - - ;
+    /* background: - - - ; */
+    /* color: - - - ; */
     /* TEXT */
-    font-family: - - - ;
-    font-size: - - - ;
-    line-height: - - - ;
-    text-align: - - - ;
+    /* font-family: - - - ; */
+    /* font-size: - - - ; */
+    /* line-height: - - - ; */
+    /* text-align: - - - ; */
     /* OTHER */
-    cursor: - - - ;
+    /* cursor: - - - ; */
 }
+
+/* Rectangle1 */
+img[src*="/images/Rectangle1.png"] {
+    position: absolute;
+    width: 1440px;
+    height: 68px;
+    left: 0px;
+    top: 24px;
+    background: rgba(0, 0, 0, 0.69);
+}
+
+/* OUR services */
+.our-services {
+    list-style-type: none;
+    /* margin: 0; */
+    /* padding: 0; */
+    position: absolute;
+    width: 110px;
+    height: 19px;
+    left: 720px;
+    top: 49px;
+    font-family: 'Roboto', sans-serif;;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    /* identical to box height */
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+/* OUR PRODUCTS */
+.our-products {
+    list-style-type: none;
+    /* margin: 0; */
+    /* padding: 0; */
+    position: absolute;
+    width: 119px;
+    height: 19px;
+    left: 885px;
+    top: 49px;
+    font-family: 'Roboto', sans-serif;;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    /* identical to box height */
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+/* ABOUT US */
+.about-us {
+    list-style-type: none;
+    /* margin: 0; */
+    /* padding: 0; */
+    position: absolute;
+    width: 77px;
+    height: 19px;
+    left: 1059px;
+    top: 49px;
+    font-family: 'Roboto', sans-serif;;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    /* identical to box height */
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+/* CONTACT US */
+.contact-us {
+    list-style-type: none;
+    /* margin: 0; */
+    /* padding: 0; */
+    position: absolute;
+    width: 97px;
+    height: 19px;
+    left: 1191px;
+    top: 49px;
+    font-family: 'Roboto', sans-serif;;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    /* identical to box height */
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+/* bkg_1 1 */
+img[src*="/images/bkg_1_1.png"] {
+    position: absolute;
+    width: 1440px;
+    height: 960px;
+    left: 0px;
+    top: 0px;
+    background: url(/images/bkg_1_1.png);
+}
+
+/* logo_sublight */
+img[src*="/images/logo_sublight.svg"] {
+    position: absolute;
+    width: 465px;
+    height: 86px;
+    left: 20px;
+    top: 15px;
+}
+
+/* href color */
+a:link {
+    color: green;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+  a:visited {
+    color: white;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    color: #FF7630;
+    background-color: transparent;
+    text-decoration: underline;
+  }
+  
+  a:active {
+    color: yellow;
+    background-color: transparent;
+    text-decoration: underline;
+  }
