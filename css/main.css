@@ -1,29 +1,9 @@
-/* CSS STRUCTURE TEMPLATE */
-.selector {
-    /* POSITIONING */
-    position: absolute, relative, fixed, etc;
-    z-index: 10;
-    top: 0;
-    right: 0;
-    /* DISPLAY & BOX MODEL */
-    display: block, flex, etc;
-    overflow: visible, hidden, scroll, etc;
-    box-sizing: border-box, etc;
-    /* width: - - -; */
-    /* height: - - - ; */
-    /* padding: 10px 10px; */
-    /* border: 0 solid color; */
-    /* margin: - - - ; */
-    /* COLOR */
-    /* background: - - - ; */
-    /* color: - - - ; */
-    /* TEXT */
-    /* font-family: - - - ; */
-    /* font-size: - - - ; */
-    /* line-height: - - - ; */
-    /* text-align: - - - ; */
-    /* OTHER */
-    /* cursor: - - - ; */
+/* Desktop */
+html{
+    position: relative;
+    width: 1440px;
+    height: 4471px;
+    background: #FFFFFF;
 }
 
 /* Rectangle1 */
@@ -33,20 +13,19 @@ img[src*="/images/Rectangle1.png"] {
     height: 68px;
     left: 0px;
     top: 24px;
+    opacity: 0.75;
     background: rgba(0, 0, 0, 0.69);
 }
 
 /* OUR services */
-.our-services {
+#our-services {
     list-style-type: none;
-    /* margin: 0; */
-    /* padding: 0; */
     position: absolute;
     width: 110px;
     height: 19px;
     left: 720px;
     top: 49px;
-    font-family: 'Roboto', sans-serif;;
+    font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 16px;
@@ -55,10 +34,12 @@ img[src*="/images/Rectangle1.png"] {
     text-align: center;
     text-transform: uppercase;
     color: #FFFFFF;
+    background-color: transparent;
+    text-decoration: none;
 }
 
 /* OUR PRODUCTS */
-.our-products {
+#our-products {
     list-style-type: none;
     /* margin: 0; */
     /* padding: 0; */
@@ -67,7 +48,7 @@ img[src*="/images/Rectangle1.png"] {
     height: 19px;
     left: 885px;
     top: 49px;
-    font-family: 'Roboto', sans-serif;;
+    font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 16px;
@@ -76,10 +57,12 @@ img[src*="/images/Rectangle1.png"] {
     text-align: center;
     text-transform: uppercase;
     color: #FFFFFF;
+    background-color: transparent;
+    text-decoration: none;
 }
 
 /* ABOUT US */
-.about-us {
+#about-us {
     list-style-type: none;
     /* margin: 0; */
     /* padding: 0; */
@@ -88,7 +71,7 @@ img[src*="/images/Rectangle1.png"] {
     height: 19px;
     left: 1059px;
     top: 49px;
-    font-family: 'Roboto', sans-serif;;
+    font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 16px;
@@ -97,10 +80,12 @@ img[src*="/images/Rectangle1.png"] {
     text-align: center;
     text-transform: uppercase;
     color: #FFFFFF;
+    background-color: transparent;
+    text-decoration: none;
 }
 
 /* CONTACT US */
-.contact-us {
+#contact-us {
     list-style-type: none;
     /* margin: 0; */
     /* padding: 0; */
@@ -109,7 +94,7 @@ img[src*="/images/Rectangle1.png"] {
     height: 19px;
     left: 1191px;
     top: 49px;
-    font-family: 'Roboto', sans-serif;;
+    font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 16px;
@@ -118,6 +103,8 @@ img[src*="/images/Rectangle1.png"] {
     text-align: center;
     text-transform: uppercase;
     color: #FFFFFF;
+    background-color: transparent;
+    text-decoration: none;
 }
 
 /* bkg_1 1 */
@@ -139,27 +126,38 @@ img[src*="/images/logo_sublight.svg"] {
     top: 15px;
 }
 
-/* href color */
-a:link {
-    color: green;
-    background-color: transparent;
-    text-decoration: none;
+  /* OUR MISSION */
+  .our-mission{
+    position: absolute;
+    width: 325px;
+    height: 60px;
+    left: 557px;
+    top: 653px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 51px;
+    line-height: 60px;
+    /* identical to box height */
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
   }
-  
-  a:visited {
-    color: white;
-    background-color: transparent;
-    text-decoration: none;
-  }
-  
-  a:hover {
-    color: #FF7630;
-    background-color: transparent;
-    text-decoration: underline;
-  }
-  
-  a:active {
-    color: yellow;
-    background-color: transparent;
-    text-decoration: underline;
+
+  /* TAKE YOU TO THE TOP */
+  .take-you-to-the-top{
+      position: absolute;
+    width: 829px;
+    height: 93px;
+    left: 305px;
+    top: 713px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 79px;
+    line-height: 93px;
+    /* identical to box height */
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
   }
