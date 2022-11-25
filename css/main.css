@@ -6,6 +6,38 @@ html{
     background: #FFFFFF;
 }
 
+body {
+    width: 100%;
+    height: 6499px;
+    padding: 0px;
+    margin: 0px;
+    background-color: #FFFFFF;
+}
+
+main {
+    width: 100%;
+    padding: 0px;
+    margin: 0px;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;    
+}
+
+header {
+    width: 100%;
+    height: 93px;
+    display: flex;
+    position: fixed;
+    padding: 0px;
+    z-index: 999;
+    box-shadow: var(--nav-shadow);
+}
+
+
+
 /* Rectangle1 */
 img[src*="/images/Rectangle1.png"] {
     position: absolute;
@@ -20,10 +52,12 @@ img[src*="/images/Rectangle1.png"] {
 /* OUR services */
 #our-services {
     list-style-type: none;
+    display: inline-block;
+    white-space: nowrap;
     position: absolute;
     width: 110px;
     height: 19px;
-    left: 720px;
+    left: 715px;
     top: 49px;
     font-family: 'Roboto', sans-serif;
     font-style: normal;
@@ -43,10 +77,11 @@ img[src*="/images/Rectangle1.png"] {
     list-style-type: none;
     /* margin: 0; */
     /* padding: 0; */
+    white-space: nowrap;
     position: absolute;
     width: 119px;
     height: 19px;
-    left: 885px;
+    left: 880px;
     top: 49px;
     font-family: 'Roboto', sans-serif;
     font-style: normal;
@@ -66,10 +101,11 @@ img[src*="/images/Rectangle1.png"] {
     list-style-type: none;
     /* margin: 0; */
     /* padding: 0; */
+    white-space: nowrap;
     position: absolute;
     width: 77px;
     height: 19px;
-    left: 1059px;
+    left: 1054px;
     top: 49px;
     font-family: 'Roboto', sans-serif;
     font-style: normal;
@@ -89,10 +125,11 @@ img[src*="/images/Rectangle1.png"] {
     list-style-type: none;
     /* margin: 0; */
     /* padding: 0; */
+    white-space: nowrap;
     position: absolute;
     width: 97px;
     height: 19px;
-    left: 1191px;
+    left: 1186px;
     top: 49px;
     font-family: 'Roboto', sans-serif;
     font-style: normal;
@@ -128,10 +165,11 @@ img[src*="/images/logo_sublight.svg"] {
 
   /* OUR MISSION */
   .our-mission{
+    white-space: nowrap;
     position: absolute;
     width: 325px;
     height: 60px;
-    left: 557px;
+    left: 515px;
     top: 653px;
     font-family: 'Roboto', sans-serif;
     font-style: normal;
@@ -146,10 +184,11 @@ img[src*="/images/logo_sublight.svg"] {
 
   /* TAKE YOU TO THE TOP */
   .take-you-to-the-top{
-      position: absolute;
+    white-space: nowrap;
+    position: absolute;
     width: 829px;
     height: 93px;
-    left: 305px;
+    left: 205px;
     top: 713px;
     font-family: 'Roboto', sans-serif;
     font-style: normal;
@@ -161,3 +200,489 @@ img[src*="/images/logo_sublight.svg"] {
     text-transform: uppercase;
     color: #FFFFFF;
   }
+
+/* ELEVATOR BUTTON LOGO */
+img[src*="/images/elevator_button.svg"] {
+    position: absolute;
+    height: 64px;
+    width: 65px;
+    left: 687px;
+    top: 828px;
+
+}
+
+/* Rectangle_2 */
+img[src*="/images/Rectangle_2.png"] {
+    position: absolute;
+    width: 1440px;
+    height: 711px;
+    left: 0px;
+    top: 960px;
+    /* Sublight Engines/Gray */
+    background: #383838; 
+}
+
+/* icon/design */
+img[src*="/images/design.svg"] {
+    position: absolute;
+    width: 250px;
+    height: 250px;
+    left: 180px;
+    top: 1242px;
+}
+
+/* icon/build */
+img[src*="/images/build.svg"] {
+    position: absolute;
+    width: 269px;
+    height: 250px;
+    left: 580px;
+    top: 1255px;
+}
+
+/* icon/maintenance */
+img[src*="/images/maintenance.svg"] {
+    position: absolute;
+    width: 250px;
+    height: 250px;
+    left: 1008px;
+    top: 1242px;
+}
+
+/* separator */
+.image-1 {
+    position: absolute;
+    width: 170px;
+    height: 25.5px;
+    left: 635px;
+    top: 1151.25px;
+}
+
+/* one-stop for your elevator needs */
+.one-stop-for-your-elevator-needs {
+    white-space: nowrap;
+    position: absolute;
+    width: 458px;
+    height: 29px;
+    left: 473px;
+    top: 1010px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 29px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+/* one step closer to success */
+.one-step-closer-to-success {
+    white-space: nowrap;
+    position: absolute;
+    width: 667px;
+    height: 53px;
+    left: 320px;
+    top: 1020px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 45px;
+    line-height: 53px;
+    /* identical to box height */
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+
+}
+
+/* we design */
+.we-design {
+    white-space: nowrap;
+    position: absolute;
+    width: 130px;
+    height: 29px;
+    left: 235px;
+    top: 1528px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 29px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+/* we build */
+.we-build {
+    white-space: nowrap;
+    position: absolute;
+    width: 112px;
+    height: 29px;
+    left: 663px;
+    top: 1528px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 29px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+/* we maintain */
+.we-maintain {
+    white-space: nowrap;
+    position: absolute;
+    width: 162px;
+    height: 29px;
+    left: 1054px;
+    top: 1528px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 29px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+/* image for product description */
+img[src*="/images/bkg_2_1.png"] {
+    position: absolute;
+    width: 615px;
+    height: 411px;
+    left: 748px;
+    top: 1751px;
+    background: url(/images/bkg_2_1.png);
+}
+
+/* 2022 securebaords series */
+.secureboards-series {
+    white-space: nowrap;
+    position: absolute;
+    width: 342px;
+    height: 29px;
+    left: 60px;
+    top: 1800px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 29px;
+    text-transform: uppercase;
+    /* Sublight Engines/Black */
+    color: #292929;
+}
+
+/* the perfection in security */
+.the-perfection-in-security {
+    white-space: nowrap;
+    position: absolute;
+    width: 515px;
+    height: 42px;
+    left: 60px;
+    top: 1833px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 30px;
+    line-height: 42px;
+    text-transform: uppercase;
+    /* Sublight Engines/Black */
+    color: #292929;
+}
+
+/* latin text */
+.latin-text {
+    position: absolute;
+    width: 586px;
+    height: 217px;
+    left: 60px;
+    top: 1899px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 22px;
+    /* or 110% */
+    color: #000000;
+}
+
+/* background product line */
+img[src*="/images/Rectangle_3.png"] {
+    position: absolute;
+    width: 1440px;
+    height: 853px;
+    left: 0px;
+    top: 2242px;
+    /* Sublight Engines/Orange */
+    background: #FF7630;
+}
+
+/* need more for your fleet of elevators */
+.need-more-for-your-fleet-of-elevators {
+    white-space: nowrap;
+    position: absolute;
+    width: 518px;
+    height: 29px;
+    left: 450px;
+    top: 2310px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 23px;
+    line-height: 29px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+/* all our products are made with heart and soul */
+.all-our-products-are-made-with-heart-and-soul {
+    position: absolute;
+    width: 659px;
+    height: 106px;
+    left: 388px;
+    top: 2330px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 37px;
+    line-height: 53px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+/* separator 2 */
+.image-2 {
+    position: absolute;
+    width: 170px;
+    height: 25.5px;
+    left: 635px;
+    top: 2485px;
+    filter: invert(1);
+}
+
+/* white background */
+.rectangle-1 {
+    position: absolute;
+    left: 41px;
+    top: 2721px;
+    background: #FFFFFF;
+}
+
+/* white background */
+.rectangle-2 {
+    position: absolute;
+    left: 316px;
+    top: 2721px;
+    background: #FFFFFF;
+}
+
+/* white background */
+.rectangle-3 {
+    position: absolute;
+    left: 592px;
+    top: 2721px;
+    background: #FFFFFF;
+}
+
+/* white background */
+.rectangle-4 {
+    position: absolute;
+    left: 867px;
+    top: 2721px;
+    background: #FFFFFF;
+}
+
+/* white background */
+.rectangle-5 {
+    position: absolute;
+    left: 1143px;
+    top: 2721px;
+    background: #FFFFFF;
+}
+
+/* safety */
+.safety {
+    position: absolute;
+    left: 130px;
+    top: 2720px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+    text-transform: uppercase;
+    /* Sublight Engines/Gray */
+    color: #383838;
+}
+
+/* lorem ipsum dolor */
+.lorem-ipsum-dolor {
+    position: absolute;
+    left: 62px;
+    top: 2740px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 22px;
+    /* or 110% */
+    text-align: center;
+    /* Sublight Engines/Gray */
+    color: #383838; 
+}
+
+/* cab */
+.cab {
+    position: absolute;
+    left: 418px;
+    top: 2720px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+    text-transform: uppercase;
+    /* Sublight Engines/Gray */
+    color: #383838; 
+}
+
+/* lorem ipsum dolor 2 */
+.lorem-ipsum-dolor-2 {
+    position: absolute;
+    left: 337px;
+    top: 2740px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 22px;
+    /* or 110% */
+    text-align: center;
+    /* Sublight Engines/Gray */
+    color: #383838; 
+}
+
+/* door */
+.door {
+    position: absolute;
+    left: 683px;
+    top: 2720px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+    text-transform: uppercase;
+    /* Sublight Engines/Gray */
+    color: #383838; 
+}
+
+/* lorem ipsum dolor 3 */
+.lorem-ipsum-dolor-3 {
+    position: absolute;
+    left: 615px;
+    top: 2740px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 22px;
+    /* or 110% */
+    text-align: center;
+    /* Sublight Engines/Gray */
+    color: #383838; 
+}
+
+/* mechanics */
+.mechanics {
+    position: absolute;
+    left: 937px;
+    top: 2720px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+    text-transform: uppercase;
+    /* Sublight Engines/Gray */
+    color: #383838; 
+}
+
+/* lorem ipsum dolor 4 */
+.lorem-ipsum-dolor-4 {
+    position: absolute;
+    left: 888px;
+    top: 2740px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 22px;
+    /* or 110% */
+    text-align: center;
+    /* Sublight Engines/Gray */
+    color: #383838; 
+}
+
+/* mechanics */
+.hoistway-hatch {
+    position: absolute;
+    left: 1185px;
+    top: 2720px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+    text-transform: uppercase;
+    /* Sublight Engines/Gray */
+    color: #383838; 
+}
+
+/* lorem ipsum dolor 4 */
+.lorem-ipsum-dolor-5 {
+    position: absolute;
+    left: 1165px;
+    top: 2740px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 22px;
+    /* or 110% */
+    text-align: center;
+    /* Sublight Engines/Gray */
+    color: #383838; 
+}
+
+/* image Door */
+.image-safety {
+    position: absolute;
+    width: 255px;
+    left: 41px;
+    top: 2551px;
+    right: 1144px;
+    background: url(/images/safety.png);
+}
+
+.image-cab {
+    position: absolute;
+    width: 255px;
+    left: 316px;
+    top: 2551px;
+    right: 1144px;
+    background: url(/images/cab.png);    
+}
