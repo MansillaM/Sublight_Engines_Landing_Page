@@ -1,4 +1,4 @@
-#About The Project
+# About The Project
 
   This is the replica of model and prototype for Sublight Engines brand new website to detail its product offering. It reflects and respects industries standards, while setting the company apart from the competition.
   
