@@ -11,13 +11,13 @@
     - Footer
   
 
-#Built With
+# Built With
   - TiHtml5
   - SiCss3
   
   
-#Installation
+# Installation
 You will need VSCODE, then git clone the project. Once in the application download the LIVE SERVER add-on, once completed click on it and you can view the page.
 
-#Usage 
+# Usage 
 This project is for professional use only.
