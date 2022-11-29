@@ -12,8 +12,8 @@
   
 
 # Built With
-  - TiHtml5
-  - SiCss3
+  - HTML
+  - CSS
   
   
 # Installation
