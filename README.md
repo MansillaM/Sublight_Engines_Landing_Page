@@ -10,9 +10,9 @@
    * Footer
 
 # Built With
-  - HTML <a href="http://www.w3.org/html/logo/"><img src="https://www.w3.org/html/logo/badge/html5-badge-h-solo.png" width="63" height="64" alt="HTML5 Powered" title="HTML5 Powered">
+  <a href="http://www.w3.org/html/logo/">
+<img src="https://www.w3.org/html/logo/badge/html5-badge-v-css3.png" width="38" height="106" alt="HTML5 Powered with CSS3 / Styling" title="HTML5 Powered with CSS3 / Styling">
 </a>
-  - CSS <i class="fa-brands fa-css3"></i>
   
   
 # Installation
