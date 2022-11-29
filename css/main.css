@@ -464,7 +464,7 @@ img[src*="/images/Rectangle_3.png"] {
     width: 170px;
     height: 25.5px;
     left: 635px;
-    top: 2485px;
+    top: 2495px;
     filter: invert(1);
 }
 
@@ -474,6 +474,7 @@ img[src*="/images/Rectangle_3.png"] {
     left: 41px;
     top: 2721px;
     background: #FFFFFF;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 /* white background */
@@ -482,6 +483,7 @@ img[src*="/images/Rectangle_3.png"] {
     left: 316px;
     top: 2721px;
     background: #FFFFFF;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 /* white background */
@@ -490,6 +492,7 @@ img[src*="/images/Rectangle_3.png"] {
     left: 592px;
     top: 2721px;
     background: #FFFFFF;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 /* white background */
@@ -498,6 +501,7 @@ img[src*="/images/Rectangle_3.png"] {
     left: 867px;
     top: 2721px;
     background: #FFFFFF;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 /* white background */
@@ -506,6 +510,7 @@ img[src*="/images/Rectangle_3.png"] {
     left: 1143px;
     top: 2721px;
     background: #FFFFFF;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 /* safety */
@@ -674,15 +679,486 @@ img[src*="/images/Rectangle_3.png"] {
     width: 255px;
     left: 41px;
     top: 2551px;
-    right: 1144px;
     background: url(/images/safety.png);
 }
 
+/* image Cab */
 .image-cab {
     position: absolute;
     width: 255px;
     left: 316px;
     top: 2551px;
-    right: 1144px;
     background: url(/images/cab.png);    
+}
+
+/* image Door */
+.image-door {
+    position: absolute;
+    width: 255px;
+    left: 592px;
+    top: 2551px;
+    background: url(/images/door.png);
+}
+
+/* image Mechanics */
+.image-mechanics {
+    position: absolute;
+    width: 255px;
+    left: 867px;
+    top: 2551px;
+    background: url(/images/mechanics.png);
+}
+
+/* image Hoistway/Hatch */
+.image-hoistway {
+    position: absolute;
+    width: 255px;
+    left: 1143px;
+    top: 2551px;
+    background: url(/images/hoistway.png);
+}
+
+/* rectangle image */
+.rectangle-6 {
+    position: absolute;
+    width: 294px;
+    left: 568px;
+    top: 2900px;
+    border: 3px solid #FFFFFF;
+}
+
+/* download our catalog */
+.download-our-catalog {
+    position: absolute;
+    width: 222px;
+    left: 597px;
+    top: 2900px;
+    white-space: nowrap;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    /* identical to box height, or 122% */
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    /* identical to box height */
+    background-color: transparent;
+    text-decoration: none;
+}
+
+/* stay in touch with our customer service */
+.stay-in-touch {
+    position: absolute;
+    white-space: nowrap;
+    width: 549px;
+    height: 29px;
+    left: 444px;
+    top: 3199px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 23px;
+    line-height: 29px;
+    text-align: center;
+    text-transform: uppercase;
+    /* Sublight Engines/Black */
+    color: #292929;
+}
+
+/* feel free to contact us for any questions */
+.feel-free-to-contact-us {
+    position: absolute;
+    width: 568px;
+    height: 106px;
+    top: 3232px;
+    left: 435px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 1000;
+    font-size: 36px;
+    line-height: 53px;
+    text-align: center;
+    text-transform: uppercase;
+    /* Sublight Engines/Orange */
+    color: #FF7630;
+}
+
+/* separator in black 2 */
+.image-3 {
+    position: absolute;
+    width: 170px;
+    height: 25.5px;
+    left: 635px;
+    top: 3390px;
+    filter: invert(1);
+}
+
+/* Rectangle Contact 7 */
+.rectangle-contact {
+    box-sizing: border-box;
+    position: absolute;
+    left: 471px;
+    top: 3515px;
+    /* Sublight Engines/Light Gray */
+    border: 1px solid #A0A0A0;
+}
+
+/* Rectangle Contact-2 7 */
+.rectangle-contact-2 {
+    box-sizing: border-box;
+    position: absolute;
+    left: 471px;
+    top: 3609px;
+    /* Sublight Engines/Light Gray */
+    border: 1px solid #A0A0A0;
+}
+
+/* Rectangle Contact-3 7 */
+.rectangle-contact-3 {
+    box-sizing: border-box;
+    position: absolute;
+    height: 52px;
+    width: 236px;
+    left: 471px;
+    top: 3703px;
+    right: 733px;
+    bottom: 773px;
+    /* Sublight Engines/Light Gray */
+    border: 1px solid #A0A0A0;
+}
+
+/* Rectangle Contact-4 7 */
+.rectangle-contact-4 {
+    box-sizing: border-box;
+    position: absolute;
+    height: 52px;
+    width: 236px;
+    left: 733px;
+    top: 3703px;
+    right: 471px;
+    bottom: 773px;
+    /* Sublight Engines/Light Gray */
+    border: 1px solid #A0A0A0;    
+}
+
+/* Rectangle Contact-5 6 */
+.rectangle-contact-5 {
+    box-sizing: border-box;
+    position: absolute;
+    left: 471px;
+    top: 3802px;
+    width: 498px;
+    height: 50px;
+    /* Sublight Engines/Black */
+    
+    border: 3px solid #292929;
+}
+
+/* Name */
+.the-name {
+    position: absolute;
+    white-space: nowrap;
+    left: 473px;
+    top: 3491px;
+    width: 36px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 10px;
+    line-height: 12px;
+    /* identical to box height */
+    text-transform: uppercase;
+    /* Sublight Engines/Black */
+    color: #292929;
+}
+
+/* Enter your full name */
+.enter-your-full-name {
+    position: absolute;
+    white-space: nowrap;
+    width: 134px;
+    left: 494px;
+    top: 3518px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+    /* identical to box height */
+    /* Sublight Engines/Light Gray */
+    color: #A0A0A0;
+}
+
+/* Email address */
+.the-email-address {
+    position: absolute;
+    white-space: nowrap;
+    width: 84px;
+    left: 473px;
+    top: 3585px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 10px;
+    line-height: 12px;
+    /* identical to box height */
+    text-transform: uppercase;
+    /* Sublight Engines/Black */
+    color: #292929;    
+}
+
+/* yourname@company.com */
+.your-name-at-company-dot-com {
+    position: absolute;
+    white-space: nowrap;
+    width: 175px;
+    left: 494px;
+    top: 3611px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+    /* identical to box height */
+    /* Sublight Engines/Light Gray */
+    color: #A0A0A0;
+}
+
+/* Phone number */
+.the-phone-number {
+    position: absolute;
+    white-space: nowrap;
+    width: 77px;
+    left: 474px;
+    top: 3679px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 10px;
+    line-height: 12px;
+    /* identical to box height */
+    text-transform: uppercase;
+    /* Sublight Engines/Black */
+    color: #292929;
+}
+
+/* Preferred language */
+.the-preferred-language {
+    position: absolute;
+    white-space: nowrap;
+    width: 109px;
+    left: 735px;
+    top: 3679px;
+    bottom: 82.86%;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 10px;
+    line-height: 12px;
+    /* identical to box height */
+    text-transform: uppercase;
+    /* Sublight Engines/Black */
+    color: #292929;
+}
+/* contact phone example */
+.contact-phone-example {
+    position: absolute;
+    white-space: nowrap;
+    width: 119px;
+    left: 494px;
+    top: 3705px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+    /* identical to box height */
+    /* Sublight Engines/Light Gray */
+    color: #A0A0A0;
+}
+
+/* Select */
+.the-select-word {
+    position: absolute;
+    width: 42px;
+    left: 756px;
+    top: 3705px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+    /* identical to box height */
+    /* Sublight Engines/Gray */
+    color: #383838;
+}
+
+/* Submit button */
+.the-submit {
+    position: absolute;
+    left: 687px;
+    top: 3798px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    /* identical to box height, or 122% */
+    text-align: center;
+    text-transform: uppercase;
+    /* Sublight Engines/Black */
+    color: #292929;
+}
+
+/* Down arrow logo */
+img[src*="/images/M-icon"] {
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    left: 932px;
+    top: 3716px;
+    /* icon/medium */
+    font-family: 'Material Icons';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 100%;
+    /* identical to box height, or 24px */
+    display: flex;
+    align-items: center;
+    text-align: center;
+    /* black/0.54 */
+    color: rgba(0, 0, 0, 0.54);
+}
+
+/* Footer background */
+img[src*="/images/Rectangle_8.png"] {
+    position: absolute;
+    width: 1440px;
+    height: 254px;
+    top: 3965px;
+    /* Sublight Engines/Black */
+    background: #292929;
+}
+
+/* With your trust since 1943 */
+.with-your-trust-since {
+    position: absolute;
+    white-space: nowrap;
+    width: 552px;
+    height: 53px;
+    left: 258px;
+    top: 4050px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 38px;
+    line-height: 53px;
+    /* identical to box height */
+    /* Sublight Engines/Orange */
+    color: #FF7630;
+}
+
+/* Signature logo */
+img[src*="/images/signature.svg"] {
+    position: absolute;
+    width: 298px;
+    height: 141px;
+    left: 858px;
+    top: 4020px;
+}
+
+/* UNITED STATES office */
+.united-states-office {
+    position: absolute;
+    white-space: nowrap;
+    width: 163px;
+    height: 18px;
+    left: 67px;
+    top: 4290px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 18px;
+    /* identical to box height */
+    text-transform: uppercase;
+    /* Sublight Engines/Orange */
+    color: #FF7630;
+}
+
+/* 456 harlem boulevard saratoga springs, ny, usa 1 999 543-4567 */
+.one-address {
+    position: absolute;
+    width: 295px;
+    height: 78px;
+    left: 67px;
+    top: 4303px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 26px;
+    text-transform: uppercase;
+    /* Sublight Engines/Black */
+    color: #292929;
+}
+
+/* Canadas Office */
+.the-canadas-office {
+    position: absolute;
+    white-space: nowrap;
+    width: 126px;
+    height: 18px;
+    left: 1244px;
+    top: 4290px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 18px;
+    /* identical to box height */
+    text-align: right;
+    text-transform: uppercase;
+    /* Sublight Engines/Orange */
+    color: #FF7630;
+}
+
+/* 23895 bradshaw boulevard kingston, ont, ca 1 999 543-4567 */
+.two-address {
+    position: absolute;
+    width: 314px;
+    height: 78px;
+    left: 1056px;
+    top: 4303px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 26px;
+    text-align: right;
+    text-transform: uppercase;
+    /* letter-spacing: -0.25px; */
+    /* Sublight Engines/Black */
+    color: #292929; 
+}
+
+/* All rights reserved to CodeBoxx Solutions ©, 2022. */
+.all-rights-reserved {
+    position: absolute;
+    width: 223px;
+    height: 12px;
+    left: 609px;
+    top: 4475px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 12px;
+    /* identical to box height */
+    text-align: center;
+    /* Sublight Engines/Black */
+    color: #292929;
 }
